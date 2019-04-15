@@ -18,7 +18,8 @@ You have been provided a [JSON object](js/index.js) with all the necessary data 
 * [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 * [x] Push commits: git push origin `<firstName-lastName>`.
 
-**Follow these steps for completing your project.**
+**Follow these steps  
+for completing your project.**
 
 * [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 * [x] Add your project manager as a reviewer on the pull-request

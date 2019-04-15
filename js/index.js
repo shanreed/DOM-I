@@ -37,18 +37,12 @@ const siteContent = {
   },
 };
 
+
+
+
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
-
-let newNav = document.querySelector("nav");
-let newNavItem = document.createTextNode('Im New');
-let newNavItem2 = document.createTextNode('Im New Too');
-newNav.appendChild(newNavItem2);
-newNav.prepend(newNavItem);
-
-
-
 
 //Updating Nav items
 let navItems = document.getElementsByTagName('a');
@@ -112,6 +106,30 @@ pTags[7].textContent = siteContent["contact"]["email"];
 
 //Footer
 pTags[8].textContent = siteContent["footer"]["copyright"];
+
+//
+
+let greenNav = document.querySelectorAll('a');
+greenNav[0].style.color = "green";
+greenNav[1].style.color = "green";
+greenNav[2].style.color = "green";
+greenNav[3].style.color = "green";
+greenNav[4].style.color = "green";
+greenNav[5].style.color = "green";
+
+let newNav = document.querySelector("nav");
+let newNavItem = document.createTextNode('Im New');
+let newNavItem2 = document.createTextNode('Im New Too');
+newNav.appendChild(newNavItem2);
+newNav.prepend(newNavItem);
+newNav.style.color = 'green';
+
+
+
+
+//Strecth
+//document.body.style.backgroundColor = 'yellow'
+
 
 
 
